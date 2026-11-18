@@ -1,0 +1,24 @@
+{
+  "name": "方案乙-周末两场齐扩并试节庆晚场",
+  "existing": [
+    {"session_id": "BASE-SAT-AM", "slot": "周六早", "teacher": "T01", "room": "A",
+     "capacity": 10, "minimum": 2},
+    {"session_id": "BASE-SAT-PM", "slot": "周六午", "teacher": "T02", "room": "B",
+     "capacity": 8, "minimum": 2},
+    {"session_id": "BASE-SUN-AM", "slot": "周日早", "teacher": "T03", "room": "A",
+     "capacity": 6, "minimum": 2},
+    {"session_id": "BASE-SUN-PM", "slot": "周日午", "teacher": "T01", "room": "B",
+     "capacity": 5, "minimum": 2}
+  ],
+  "added": [
+    {"session_id": "NEW-SAT-PM-2", "slot": "周六午", "teacher": "T04", "room": "C",
+     "capacity": 10, "minimum": 3,
+     "acceptable_slots": ["周六午", "周六早"]},
+    {"session_id": "NEW-FEST-EVE", "slot": "节庆晚场", "teacher": "T05", "room": "D",
+     "capacity": 8, "minimum": 6, "tags": ["节庆", "新品类"],
+     "acceptable_slots": ["节庆晚场"]}
+  ],
+  "demand_assumptions": {"节庆晚场": 5.0},
+  "show_rates": {"周六早": 0.9, "周六午": 0.9, "周日早": 0.85, "周日午": 0.85,
+                 "节庆晚场": 0.9}
+}

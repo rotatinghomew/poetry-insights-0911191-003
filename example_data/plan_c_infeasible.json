@@ -1,0 +1,13 @@
+{
+  "name": "方案丙-讲师冲突的不可执行方案",
+  "existing": [
+    {"session_id": "BASE-SAT-AM", "slot": "周六早", "teacher": "T01", "room": "A",
+     "capacity": 10, "minimum": 2}
+  ],
+  "added": [
+    {"session_id": "NEW-CONFLICT", "slot": "周六早", "teacher": "T01", "room": "C",
+     "capacity": 10, "minimum": 2}
+  ],
+  "demand_assumptions": {},
+  "show_rates": {}
+}
