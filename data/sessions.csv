@@ -1,0 +1,4 @@
+session_id,week,slot,teacher,room,minimum
+S1,W1,周六早,T01,A,2
+S2,W1,周六午,T01,A,2
+S3,W2,周六早,T02,B,2

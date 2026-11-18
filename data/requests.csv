@@ -1,0 +1,7 @@
+request_id,applicant,week,preferred_slot,rank,origin
+R01,P01,W1,周六早,1,公众号
+R02,P01,W1,周六午,2,公众号
+R03,P02,W1,周六早,1,校园
+R04,P03,W1,周六早,1,公众号
+R05,P03,W1,周六午,2,公众号
+R06,P04,W1,周六午,1,校园
